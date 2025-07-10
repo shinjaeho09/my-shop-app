@@ -1,0 +1,58 @@
+
+
+.card {
+    width: 220px;
+    padding: 16px;
+    border-radius: 12px;
+  
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+  }
+  
+
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+
+.card a {
+    text-decoration: none; 
+    color: rgb(97, 97, 97);          
+  }
+  
+.card a:hover {
+    
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  

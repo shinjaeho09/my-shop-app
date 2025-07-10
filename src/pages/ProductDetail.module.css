@@ -1,0 +1,77 @@
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toast {
+    position: fixed;
+    top: 500px;  
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    z-index: 9999;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+  
+
+  .container {
+    max-width: 900px; /* 전체 화면 대비 적당히 넓게 */
+    margin: 40px auto; /* 위아래 여백 주고, 가운데 정렬 */
+    display: flex;
+    gap: 40px; /* 이미지와 정보 사이 간격 */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .image {
+    width: 400px;  /* 이미지 크기 크게 */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .info {
+    flex: 1; /* 남은 공간 꽉 채우기 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .info p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .info button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .info button:hover {
+    background-color: #0056b3;
+  }
+  

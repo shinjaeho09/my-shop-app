@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+  }
+
+
+.container {
+    max-width: 900px;      
+    width: 90%;            
+    margin: 20px auto;     
+    padding: 20px;         
+    background-color: white; 
+    border-radius: 8px;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  }
+  
+
+
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .quantity button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove {
+    background-color: rgb(230, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
